@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("DIWALI GIFT")
-st.image("C:\Users\ckm\ii.jpg",width=400)
+st.image("C:\\Users\\ckm\\ii.jpg",width=400)
 
 radd=st.sidebar.selectbox("choose",["CREATE WISH"])
 eng=st.sidebar.text_area("This time believe me and enter your wish")
