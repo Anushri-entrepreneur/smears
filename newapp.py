@@ -1,5 +1,5 @@
 import streamlit as st
-st.beta_set_page_config(page_title="APPS BY ANU")
+
 
 st.title("KARANE KE LIE SOOCHEE APP")
 
