@@ -8,7 +8,7 @@ import streamlit as st
 
 st.title("YOUR CM1 FRIEND ")
 st.sidebar.header("TOPICS")
-rad=st.sidebar.radio("TOPICS",["Time value of money","Interest rates","Discount rates nominal","Force of interest"])
+rad=st.sidebar.radio("TOPICS",["Time value of money","Interest rates","Discount rates nominal"])
 print(rad)
 if rad=="Time value of money":
    x=st.number_input("enter amount")
@@ -48,11 +48,7 @@ if rad=="Discount rates nominal":
    print(z2)
    st.write("Discount rate is ",dp1)
 
-if rad=="Force of interest":
-   st.write("Sir this alone i didnt know how to do please check the code and tell me  how to solve it sir...")
-#    i4=st.number_input("Enter i in (0.00)form",min_value=0.05,max_value=0.20,step=1.0)
-#    delta=st.latex(log(1+i4))
-#    st.write("Delta is ",delta)
+
 
 
 
