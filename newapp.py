@@ -7,7 +7,7 @@ rad=st.sidebar.radio("Navigation",["Soochee mein jodane","Adyatan soochee"])
 
 if rad=="Soochee mein jodane":
    
-   a = st.checkbox("JAROORE"),
+   a = st.checkbox("JAROORE")
    b=st.text_area("Enter list item")
    d= st.checkbox("MAHATVAPOORN NAHIN")
    e=st.text_area("Enter list ")
